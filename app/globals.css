@@ -1,3 +1,31 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.neumorph-navbar {
+  background: linear-gradient(145deg, #e6e6e6, #ffffff);
+  box-shadow: 5px 5px 15px #bebebe, -5px -5px 15px #ffffff;
+  height: 64px;
+}
+
+.neumorph-btn {
+  width: 120px;
+  height: 44px;
+  border-radius: 22px;
+  background: linear-gradient(145deg, #e6e6e6, #ffffff);
+  box-shadow: 5px 5px 15px #bebebe, -5px -5px 15px #ffffff;
+  border: none;
+  color: #2d3748;
+  font-weight: 700;
+  font-size: 18px;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.neumorph-btn:hover {
+  background: linear-gradient(145deg, #f0f0f0, #ffffff);
+  box-shadow: 4px 4px 8px #d1d1d1, -4px -4px 8px #ffffff;
+}

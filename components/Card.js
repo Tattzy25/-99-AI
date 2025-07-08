@@ -18,9 +18,11 @@ const CardWrapper = styled.div`
   flex-direction: column;
   align-items: center;
   position: relative;
+  margin-bottom: 48px;
   @media (max-width: 600px) {
     width: 98vw;
     padding: 24px 6px 24px 6px;
+    margin-bottom: 32px;
   }
 `;
 

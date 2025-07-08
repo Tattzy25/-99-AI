@@ -1,26 +1,7 @@
 export default function Footer() {
   return (
-    <div className="absolute w-full py-5 text-center">
-      <p className="text-gray-500">
-        A project by{" "}
-        <a
-          className="font-semibold text-gray-600 underline-offset-4 transition-colors hover:underline"
-          href="https://twitter.com/steventey"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Steven Tey
-        </a>
-      </p>
-      <a
-        href="https://www.buymeacoffee.com/steventey"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="mx-auto mt-2 flex max-w-fit items-center justify-center space-x-2 rounded-lg border border-gray-200 bg-white px-6 py-2 transition-all duration-75 hover:scale-105"
-      >
-        {/* Icon removed due to missing file */}
-        <p className="font-medium text-gray-600">Buy me a coffee</p>
-      </a>
+    <div className="absolute w-full py-5 flex justify-center items-center" style={{background: '#e0e0e0e0', boxShadow: '15px 15px 30px #d1d1d1, -15px -15px 30px #ffffff'}}>
+      <img src="https://i.imgur.com/mkTjkcj.png" alt="BRIDGIT-AI Logo" style={{width: '100%', maxWidth: '420px', display: 'block', margin: '0 auto'}} />
     </div>
   );
 }
