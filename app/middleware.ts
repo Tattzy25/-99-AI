@@ -1,7 +1,4 @@
-import { clerkMiddleware } from '@clerk/nextjs/server'
-
-// To learn more how to use clerkMiddleware to protect pages in your app, check out https://clerk.com/docs/references/nextjs/clerk-middleware
-export default clerkMiddleware()
+// Clerk middleware removed. No authentication middleware is currently applied.
 
 export const config = {
   matcher: [
@@ -10,4 +7,4 @@ export const config = {
     // Always run for API routes
     '/(api|trpc)(.*)',
   ],
-}
+};
